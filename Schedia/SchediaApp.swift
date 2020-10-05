@@ -18,3 +18,9 @@ struct SchediaApp: App {
         }
     }
 }
+
+struct SchediaApp_Previews: PreviewProvider {
+    static var previews: some View {
+        Text("Hello, World!")
+    }
+}
