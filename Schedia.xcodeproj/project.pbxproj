@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DB32DA252B50C200397593 /* SchediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32D9252B50C200397593 /* SchediaApp.swift */; };
+		06DB32DC252B50C200397593 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32DB252B50C200397593 /* ContentView.swift */; };
+		06DB32DE252B50C600397593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DB32DD252B50C600397593 /* Assets.xcassets */; };
+		06DB32E1252B50C600397593 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DB32E0252B50C600397593 /* Preview Assets.xcassets */; };
+		06DB32E3252B50C600397593 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32E2252B50C600397593 /* Persistence.swift */; };
+		06DB32E6252B50C600397593 /* Schedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32E4252B50C600397593 /* Schedia.xcdatamodeld */; };
+		06DB32F1252B50C600397593 /* SchediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32F0252B50C600397593 /* SchediaTests.swift */; };
+		06DB32FC252B50C600397593 /* SchediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32FB252B50C600397593 /* SchediaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06DB32ED252B50C600397593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06DB32CE252B50C100397593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DB32D5252B50C100397593;
+			remoteInfo = Schedia;
+		};
+		06DB32F8252B50C600397593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06DB32CE252B50C100397593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DB32D5252B50C100397593;
+			remoteInfo = Schedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06DB32D6252B50C200397593 /* Schedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DB32D9252B50C200397593 /* SchediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchediaApp.swift; sourceTree = "<group>"; };
+		06DB32DB252B50C200397593 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06DB32DD252B50C600397593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06DB32E0252B50C600397593 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06DB32E2252B50C600397593 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		06DB32E5252B50C600397593 /* Schedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schedia.xcdatamodel; sourceTree = "<group>"; };
+		06DB32E7252B50C600397593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DB32EC252B50C600397593 /* SchediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DB32F0252B50C600397593 /* SchediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchediaTests.swift; sourceTree = "<group>"; };
+		06DB32F2252B50C600397593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DB32F7252B50C600397593 /* SchediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DB32FB252B50C600397593 /* SchediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchediaUITests.swift; sourceTree = "<group>"; };
+		06DB32FD252B50C600397593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DB32D3252B50C100397593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DB32E9252B50C600397593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DB32F4252B50C600397593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DB32CD252B50C100397593 = {
+			isa = PBXGroup;
+			children = (
+				06DB32D8252B50C200397593 /* Schedia */,
+				06DB32EF252B50C600397593 /* SchediaTests */,
+				06DB32FA252B50C600397593 /* SchediaUITests */,
+				06DB32D7252B50C200397593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06DB32D7252B50C200397593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DB32D6252B50C200397593 /* Schedia.app */,
+				06DB32EC252B50C600397593 /* SchediaTests.xctest */,
+				06DB32F7252B50C600397593 /* SchediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06DB32D8252B50C200397593 /* Schedia */ = {
+			isa = PBXGroup;
+			children = (
+				06DB32D9252B50C200397593 /* SchediaApp.swift */,
+				06DB32DB252B50C200397593 /* ContentView.swift */,
+				06DB32DD252B50C600397593 /* Assets.xcassets */,
+				06DB32E2252B50C600397593 /* Persistence.swift */,
+				06DB32E7252B50C600397593 /* Info.plist */,
+				06DB32E4252B50C600397593 /* Schedia.xcdatamodeld */,
+				06DB32DF252B50C600397593 /* Preview Content */,
+			);
+			path = Schedia;
+			sourceTree = "<group>";
+		};
+		06DB32DF252B50C600397593 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06DB32E0252B50C600397593 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06DB32EF252B50C600397593 /* SchediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				06DB32F0252B50C600397593 /* SchediaTests.swift */,
+				06DB32F2252B50C600397593 /* Info.plist */,
+			);
+			path = SchediaTests;
+			sourceTree = "<group>";
+		};
+		06DB32FA252B50C600397593 /* SchediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06DB32FB252B50C600397593 /* SchediaUITests.swift */,
+				06DB32FD252B50C600397593 /* Info.plist */,
+			);
+			path = SchediaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06DB32D5252B50C100397593 /* Schedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DB3300252B50C600397593 /* Build configuration list for PBXNativeTarget "Schedia" */;
+			buildPhases = (
+				06DB32D2252B50C100397593 /* Sources */,
+				06DB32D3252B50C100397593 /* Frameworks */,
+				06DB32D4252B50C100397593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schedia;
+			productName = Schedia;
+			productReference = 06DB32D6252B50C200397593 /* Schedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06DB32EB252B50C600397593 /* SchediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DB3303252B50C600397593 /* Build configuration list for PBXNativeTarget "SchediaTests" */;
+			buildPhases = (
+				06DB32E8252B50C600397593 /* Sources */,
+				06DB32E9252B50C600397593 /* Frameworks */,
+				06DB32EA252B50C600397593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06DB32EE252B50C600397593 /* PBXTargetDependency */,
+			);
+			name = SchediaTests;
+			productName = SchediaTests;
+			productReference = 06DB32EC252B50C600397593 /* SchediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06DB32F6252B50C600397593 /* SchediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DB3306252B50C600397593 /* Build configuration list for PBXNativeTarget "SchediaUITests" */;
+			buildPhases = (
+				06DB32F3252B50C600397593 /* Sources */,
+				06DB32F4252B50C600397593 /* Frameworks */,
+				06DB32F5252B50C600397593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06DB32F9252B50C600397593 /* PBXTargetDependency */,
+			);
+			name = SchediaUITests;
+			productName = SchediaUITests;
+			productReference = 06DB32F7252B50C600397593 /* SchediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06DB32CE252B50C100397593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					06DB32D5252B50C100397593 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					06DB32EB252B50C600397593 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 06DB32D5252B50C100397593;
+					};
+					06DB32F6252B50C600397593 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 06DB32D5252B50C100397593;
+					};
+				};
+			};
+			buildConfigurationList = 06DB32D1252B50C100397593 /* Build configuration list for PBXProject "Schedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06DB32CD252B50C100397593;
+			productRefGroup = 06DB32D7252B50C200397593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DB32D5252B50C100397593 /* Schedia */,
+				06DB32EB252B50C600397593 /* SchediaTests */,
+				06DB32F6252B50C600397593 /* SchediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06DB32D4252B50C100397593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DB32E1252B50C600397593 /* Preview Assets.xcassets in Resources */,
+				06DB32DE252B50C600397593 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DB32EA252B50C600397593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DB32F5252B50C600397593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06DB32D2252B50C100397593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DB32E3252B50C600397593 /* Persistence.swift in Sources */,
+				06DB32E6252B50C600397593 /* Schedia.xcdatamodeld in Sources */,
+				06DB32DC252B50C200397593 /* ContentView.swift in Sources */,
+				06DB32DA252B50C200397593 /* SchediaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DB32E8252B50C600397593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DB32F1252B50C600397593 /* SchediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DB32F3252B50C600397593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DB32FC252B50C600397593 /* SchediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06DB32EE252B50C600397593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06DB32D5252B50C100397593 /* Schedia */;
+			targetProxy = 06DB32ED252B50C600397593 /* PBXContainerItemProxy */;
+		};
+		06DB32F9252B50C600397593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06DB32D5252B50C100397593 /* Schedia */;
+			targetProxy = 06DB32F8252B50C600397593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06DB32FE252B50C600397593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06DB32FF252B50C600397593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06DB3301252B50C600397593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Schedia/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HQPB8KNVC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Schedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.FarStudio.Schedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06DB3302252B50C600397593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Schedia/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HQPB8KNVC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Schedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.FarStudio.Schedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06DB3304252B50C600397593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HQPB8KNVC;
+				INFOPLIST_FILE = SchediaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.FarStudio.SchediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schedia.app/Schedia";
+			};
+			name = Debug;
+		};
+		06DB3305252B50C600397593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HQPB8KNVC;
+				INFOPLIST_FILE = SchediaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.FarStudio.SchediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schedia.app/Schedia";
+			};
+			name = Release;
+		};
+		06DB3307252B50C600397593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HQPB8KNVC;
+				INFOPLIST_FILE = SchediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.FarStudio.SchediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schedia;
+			};
+			name = Debug;
+		};
+		06DB3308252B50C600397593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HQPB8KNVC;
+				INFOPLIST_FILE = SchediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.FarStudio.SchediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06DB32D1252B50C100397593 /* Build configuration list for PBXProject "Schedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DB32FE252B50C600397593 /* Debug */,
+				06DB32FF252B50C600397593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DB3300252B50C600397593 /* Build configuration list for PBXNativeTarget "Schedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DB3301252B50C600397593 /* Debug */,
+				06DB3302252B50C600397593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DB3303252B50C600397593 /* Build configuration list for PBXNativeTarget "SchediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DB3304252B50C600397593 /* Debug */,
+				06DB3305252B50C600397593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DB3306252B50C600397593 /* Build configuration list for PBXNativeTarget "SchediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DB3307252B50C600397593 /* Debug */,
+				06DB3308252B50C600397593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06DB32E4252B50C600397593 /* Schedia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06DB32E5252B50C600397593 /* Schedia.xcdatamodel */,
+			);
+			currentVersion = 06DB32E5252B50C600397593 /* Schedia.xcdatamodel */;
+			path = Schedia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06DB32CE252B50C100397593 /* Project object */;
+}
