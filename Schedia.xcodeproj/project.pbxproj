@@ -11,7 +11,6 @@
 		06DB32DC252B50C200397593 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32DB252B50C200397593 /* ContentView.swift */; };
 		06DB32DE252B50C600397593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DB32DD252B50C600397593 /* Assets.xcassets */; };
 		06DB32E1252B50C600397593 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DB32E0252B50C600397593 /* Preview Assets.xcassets */; };
-		06DB32E3252B50C600397593 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32E2252B50C600397593 /* Persistence.swift */; };
 		06DB32E6252B50C600397593 /* Schedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32E4252B50C600397593 /* Schedia.xcdatamodeld */; };
 		06DB32F1252B50C600397593 /* SchediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32F0252B50C600397593 /* SchediaTests.swift */; };
 		06DB32FC252B50C600397593 /* SchediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB32FB252B50C600397593 /* SchediaUITests.swift */; };
@@ -40,7 +39,6 @@
 		06DB32DB252B50C200397593 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06DB32DD252B50C600397593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06DB32E0252B50C600397593 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		06DB32E2252B50C600397593 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		06DB32E5252B50C600397593 /* Schedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schedia.xcdatamodel; sourceTree = "<group>"; };
 		06DB32E7252B50C600397593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06DB32EC252B50C600397593 /* SchediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +74,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0674B6D3253777820058E788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		06DB32CD252B50C100397593 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +104,10 @@
 		06DB32D8252B50C200397593 /* Schedia */ = {
 			isa = PBXGroup;
 			children = (
+				0674B6D3253777820058E788 /* Models */,
 				06DB32D9252B50C200397593 /* SchediaApp.swift */,
 				06DB32DB252B50C200397593 /* ContentView.swift */,
 				06DB32DD252B50C600397593 /* Assets.xcassets */,
-				06DB32E2252B50C600397593 /* Persistence.swift */,
 				06DB32E7252B50C600397593 /* Info.plist */,
 				06DB32E4252B50C600397593 /* Schedia.xcdatamodeld */,
 				06DB32DF252B50C600397593 /* Preview Content */,
@@ -265,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06DB32E3252B50C600397593 /* Persistence.swift in Sources */,
 				06DB32E6252B50C600397593 /* Schedia.xcdatamodeld in Sources */,
 				06DB32DC252B50C200397593 /* ContentView.swift in Sources */,
 				06DB32DA252B50C200397593 /* SchediaApp.swift in Sources */,
